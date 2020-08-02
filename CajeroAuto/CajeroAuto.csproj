@@ -93,5 +93,8 @@
   <ItemGroup>
     <None Include="Resources\black-and-white-pattern-black-border-frame-png-transparent.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cajero ULSA Design.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
