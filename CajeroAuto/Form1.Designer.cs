@@ -54,11 +54,13 @@
             // 
             // btn_Aceptar
             // 
+            this.btn_Aceptar.BackColor = System.Drawing.Color.ForestGreen;
             this.btn_Aceptar.Location = new System.Drawing.Point(479, 754);
             this.btn_Aceptar.Name = "btn_Aceptar";
             this.btn_Aceptar.Size = new System.Drawing.Size(88, 47);
             this.btn_Aceptar.TabIndex = 10;
             this.btn_Aceptar.Text = "Aceptar";
+            this.btn_Aceptar.UseCustomBackColor = true;
             this.btn_Aceptar.UseSelectable = true;
             // 
             // btn_0
@@ -144,21 +146,28 @@
             // 
             // btn_Regresar
             // 
+            this.btn_Regresar.BackColor = System.Drawing.Color.RoyalBlue;
             this.btn_Regresar.Location = new System.Drawing.Point(479, 860);
             this.btn_Regresar.Name = "btn_Regresar";
             this.btn_Regresar.Size = new System.Drawing.Size(88, 47);
             this.btn_Regresar.TabIndex = 20;
             this.btn_Regresar.Text = "Regresar";
+            this.btn_Regresar.UseCustomBackColor = true;
             this.btn_Regresar.UseSelectable = true;
             // 
             // btn_Cancelar
             // 
+            this.btn_Cancelar.BackColor = System.Drawing.Color.Red;
+            this.btn_Cancelar.ForeColor = System.Drawing.Color.Black;
             this.btn_Cancelar.Location = new System.Drawing.Point(479, 807);
             this.btn_Cancelar.Name = "btn_Cancelar";
             this.btn_Cancelar.Size = new System.Drawing.Size(88, 47);
             this.btn_Cancelar.TabIndex = 21;
             this.btn_Cancelar.Text = "Cancelar";
+            this.btn_Cancelar.UseCustomBackColor = true;
+            this.btn_Cancelar.UseCustomForeColor = true;
             this.btn_Cancelar.UseSelectable = true;
+            this.btn_Cancelar.UseStyleColors = true;
             // 
             // Form1
             // 
