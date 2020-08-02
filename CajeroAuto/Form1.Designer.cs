@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.btn_1 = new MetroFramework.Controls.MetroButton();
-            this.metroButton1 = new MetroFramework.Controls.MetroButton();
+            this.btn_Aceptar = new MetroFramework.Controls.MetroButton();
             this.btn_0 = new MetroFramework.Controls.MetroButton();
             this.btn_9 = new MetroFramework.Controls.MetroButton();
             this.btn_8 = new MetroFramework.Controls.MetroButton();
@@ -39,6 +39,8 @@
             this.btn_4 = new MetroFramework.Controls.MetroButton();
             this.btn_3 = new MetroFramework.Controls.MetroButton();
             this.btn_2 = new MetroFramework.Controls.MetroButton();
+            this.btn_Regresar = new MetroFramework.Controls.MetroButton();
+            this.btn_Cancelar = new MetroFramework.Controls.MetroButton();
             this.SuspendLayout();
             // 
             // btn_1
@@ -50,14 +52,14 @@
             this.btn_1.Text = "1";
             this.btn_1.UseSelectable = true;
             // 
-            // metroButton1
+            // btn_Aceptar
             // 
-            this.metroButton1.Location = new System.Drawing.Point(649, 167);
-            this.metroButton1.Name = "metroButton1";
-            this.metroButton1.Size = new System.Drawing.Size(42, 47);
-            this.metroButton1.TabIndex = 10;
-            this.metroButton1.Text = "metroButton1";
-            this.metroButton1.UseSelectable = true;
+            this.btn_Aceptar.Location = new System.Drawing.Point(479, 754);
+            this.btn_Aceptar.Name = "btn_Aceptar";
+            this.btn_Aceptar.Size = new System.Drawing.Size(88, 47);
+            this.btn_Aceptar.TabIndex = 10;
+            this.btn_Aceptar.Text = "Aceptar";
+            this.btn_Aceptar.UseSelectable = true;
             // 
             // btn_0
             // 
@@ -140,6 +142,24 @@
             this.btn_2.Text = "2";
             this.btn_2.UseSelectable = true;
             // 
+            // btn_Regresar
+            // 
+            this.btn_Regresar.Location = new System.Drawing.Point(479, 860);
+            this.btn_Regresar.Name = "btn_Regresar";
+            this.btn_Regresar.Size = new System.Drawing.Size(88, 47);
+            this.btn_Regresar.TabIndex = 20;
+            this.btn_Regresar.Text = "Regresar";
+            this.btn_Regresar.UseSelectable = true;
+            // 
+            // btn_Cancelar
+            // 
+            this.btn_Cancelar.Location = new System.Drawing.Point(479, 807);
+            this.btn_Cancelar.Name = "btn_Cancelar";
+            this.btn_Cancelar.Size = new System.Drawing.Size(88, 47);
+            this.btn_Cancelar.TabIndex = 21;
+            this.btn_Cancelar.Text = "Cancelar";
+            this.btn_Cancelar.UseSelectable = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -147,6 +167,8 @@
             this.BackgroundImage = global::CajeroAuto.Properties.Resources.Cajero_ULSA_Design;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 1055);
+            this.Controls.Add(this.btn_Cancelar);
+            this.Controls.Add(this.btn_Regresar);
             this.Controls.Add(this.btn_2);
             this.Controls.Add(this.btn_3);
             this.Controls.Add(this.btn_4);
@@ -156,7 +178,7 @@
             this.Controls.Add(this.btn_8);
             this.Controls.Add(this.btn_9);
             this.Controls.Add(this.btn_0);
-            this.Controls.Add(this.metroButton1);
+            this.Controls.Add(this.btn_Aceptar);
             this.Controls.Add(this.btn_1);
             this.DoubleBuffered = true;
             this.Name = "Form1";
@@ -168,7 +190,7 @@
         #endregion
 
         private MetroFramework.Controls.MetroButton btn_1;
-        private MetroFramework.Controls.MetroButton metroButton1;
+        private MetroFramework.Controls.MetroButton btn_Aceptar;
         private MetroFramework.Controls.MetroButton btn_0;
         private MetroFramework.Controls.MetroButton btn_9;
         private MetroFramework.Controls.MetroButton btn_8;
@@ -178,6 +200,8 @@
         private MetroFramework.Controls.MetroButton btn_4;
         private MetroFramework.Controls.MetroButton btn_3;
         private MetroFramework.Controls.MetroButton btn_2;
+        private MetroFramework.Controls.MetroButton btn_Regresar;
+        private MetroFramework.Controls.MetroButton btn_Cancelar;
     }
 }
 
